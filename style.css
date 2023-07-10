@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+#player {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #ffa500;
+
+}
+
+#fruta {
+  position: absolute;
+  background-color: #ffffff;
+  width: 25px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cenario {
+  border: 1px solid #ffffff;
+  width: 40rem;
+  height: 25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+p {
+  margin-left: 10px;
+}
